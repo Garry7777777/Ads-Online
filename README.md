@@ -44,8 +44,7 @@ ___
 ## Инструменты, используемые в проекте:
 
 * Backend:
-    - JDK 11 
-    - Spring
+    - JDK 11,    - Spring
   
     - Spring Boot
     - Spring Web
@@ -77,10 +76,8 @@ ___
     - Клонировать проект и открыть его в среде разработки (например *IntelliJ IDEA*);
     - В файле **application.properties** указать путь к Вашей базе данных;
     - Запустить **Docker**;
-    - Скачать  **Docker image**командой 
-    - ```docker pull ghcr.io/bizinmitya/front-react-avito:latest```;
-    - Запустить **Docker image** командой 
-    - ```docker run -p 3000:3000 ghcr.io/bizinmitya/front-react-avito:latest```;
+    - Скачать  **Docker image**  командой  - ```docker pull ghcr.io/bizinmitya/front-react-avito:latest```;
+    - Запустить **Docker image**   командой  - ```docker run -p 3000:3000 ghcr.io/bizinmitya/front-react-avito:latest```;
     - Запустить приложение  **AdsOnlineApp.java**.
 
 После успешного выполнения всех шагов, фронтенд будет доступен по адресу: http://localhost:3000
