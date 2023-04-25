@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class AdviceEx {
 
     @ExceptionHandler(NotFoundException.class)
-    public ResponseEntity<?> NotFound() {
-        return ResponseEntity.notFound().build();
-    }
+    public ResponseEntity<?> NotFound() { return ResponseEntity.notFound().build();}
 
     @ExceptionHandler(ForbiddenException.class)
     public ResponseEntity<?> Forbidden() { return ResponseEntity.status(HttpStatus.FORBIDDEN).build();}
