@@ -44,7 +44,7 @@ ___
 ## Инструменты, используемые в проекте:
 
 * Backend:
-    - JDK 11,    - Spring
+    - JDK 11 + Spring
   
     - Spring Boot
     - Spring Web
